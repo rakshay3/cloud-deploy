@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Accessories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .banner {
+            background: url('images/banner.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 50px;
+        }
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 200px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports Accessories</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="banner">
+            <h2>Find the Best Sports Accessories</h2>
+            <p>Quality gear for every athlete</p>
+        </div>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/shoes.jpg" alt="Sports Shoes">
+                <p>Sports Shoes</p>
+            </div>
+            <div class="product">
+                <img src="images/gloves.jpg" alt="Gloves">
+                <p>Gloves</p>
+            </div>
+            <div class="product">
+                <img src="images/ball.jpg" alt="Football">
+                <p>Football</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Sports Accessories. All rights reserved.</p>
+    </footer>
+</body>
+</html>
